@@ -1,3 +1,5 @@
 number = 43
-for answer in number:
-   print(answer)
+answer = 0
+for num in str(number):
+   answer += int(num)
+print(answer)
